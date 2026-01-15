@@ -3,14 +3,12 @@
 
 Programa en **Java** para detectar similitudes o posibles casos de **plagio en textos o letras**, diseñado como herramienta educativa o auxiliar de análisis de contenido.
 
----
 
 ## 📌 Descripción
 
 **DectectorDePlagio** es una aplicación Java que compara textos para identificar posibles coincidencias y similitudes, lo cual puede ayudar a detectar plagio entre documentos o frases.
 El propósito principal es servir como herramienta de apoyo para fines académicos o de investigación, con lógica básica de comparación textual.
 
----
 
 ## 🚀 Características
 
@@ -19,7 +17,6 @@ El propósito principal es servir como herramienta de apoyo para fines académic
 ✔ Implementación simple y extensible
 ✔ Ideal para proyectos educativos o como base para mejoras futuras
 
----
 
 ## 🛠️ Tecnologías
 
@@ -29,7 +26,6 @@ Este proyecto está construido con:
 * **Maven** (gestión de dependencias y construcción)
 * Posible lógica de comparación de texto basada en patrones o distancias (depende del código en `src/main/java/com/plagio`) ([GitHub][1])
 
----
 
 ## 📁 Estructura del Proyecto
 
@@ -45,8 +41,6 @@ DectectorDePlagio/
 └── README.md
 ```
 
----
-
 ## 📥 Requisitos Previos
 
 Antes de ejecutar o compilar el proyecto, asegúrate de tener instalado:
@@ -54,7 +48,6 @@ Antes de ejecutar o compilar el proyecto, asegúrate de tener instalado:
 * **Java JDK 11+**
 * **Maven 3.6+**
 
----
 
 ## 💻 Instalación y Uso
 
@@ -81,7 +74,6 @@ mvn exec:java -Dexec.mainClass="com.plagio.Main"
 
 > *Reemplaza* `"com.plagio.Main"` con el paquete/clase que tenga el método `public static void main`.
 
----
 
 ## 🧠 ¿Cómo funciona?
 
@@ -94,7 +86,6 @@ El programa probablemente compara dos o más textos para medir el grado de simil
 
 Puedes **mejorar o extender esta lógica** para hacer la detección más precisa.
 
----
 
 ## 📈 Posibles Mejoras
 
@@ -105,7 +96,6 @@ Puedes **mejorar o extender esta lógica** para hacer la detección más precisa
 ☑ Exportar resultados a PDF/CSV
 ☑ Integración con una API web
 
----
 
 ## 🤝 Contribuciones
 
@@ -116,12 +106,8 @@ Puedes **mejorar o extender esta lógica** para hacer la detección más precisa
 3. Agrega mejoras o correcciones
 4. Haz *commit* y envía un *pull request*
 
----
-
 ## 📄 Licencia
 
 Este proyecto aún **no tiene una licencia definida**.
 Si quieres hacerlo open source, puedes agregar una licencia como **MIT** o **GPL-3.0**.
-
----
 
